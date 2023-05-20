@@ -1,0 +1,22 @@
+lockfileVersion: '6.0'
+
+importers:
+
+  .:
+    dependencies:
+      hono:
+        specifier: ^3.2.0
+        version: 3.2.0
+
+  packages/app:
+    dependencies:
+      hono:
+        specifier: ^3.2.0
+        version: 3.2.0
+
+packages:
+
+  /hono@3.2.0:
+    resolution: {integrity: sha512-dsPameDZC+VYainhDxUnuYRFUytpLBN9CF1QjrtPx7AtlOaNLMKc5pKsZF1dnPmGal/QaM9YDAEnzZLUJ1ugsA==}
+    engines: {node: '>=16.0.0'}
+    dev: false

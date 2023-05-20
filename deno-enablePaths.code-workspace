@@ -1,0 +1,12 @@
+{
+  //Doesn't work
+  // "folders": [{ "path": "packages/app" }, { "path": "packages/www" }],
+
+  //Works!!
+  "folders": [{ "path": "." }],
+
+  "settings": {
+    "deno.enable": true,
+    "deno.enablePaths": ["packages/app/denoApp/"]
+  }
+}
