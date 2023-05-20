@@ -1,12 +1,13 @@
 {
   //Doesn't work
+  //FIXED (need to use .vscode/settings.json in subfolder)
   "folders": [{ "path": "packages/app" }, { "path": "packages/www" }],
 
   //Works!!
   // "folders": [{ "path": "." }],
 
   "settings": {
-    "deno.enable": true,
-    "deno.enablePaths": ["packages/app/denoApp/"]
+    // "deno.enable": true,
+    // "deno.enablePaths": ["packages/app/denoApp/"]
   }
 }
