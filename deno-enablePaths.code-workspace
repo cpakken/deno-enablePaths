@@ -1,9 +1,9 @@
 {
   //Doesn't work
-  // "folders": [{ "path": "packages/app" }, { "path": "packages/www" }],
+  "folders": [{ "path": "packages/app" }, { "path": "packages/www" }],
 
   //Works!!
-  "folders": [{ "path": "." }],
+  // "folders": [{ "path": "." }],
 
   "settings": {
     "deno.enable": true,
